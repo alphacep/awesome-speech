@@ -20,16 +20,18 @@
 
 ## Dictionaries and G2P
 
-  * <https://huggingface.co/datasets/MahtaFetrat/KaamelDict>
+  * <https://huggingface.co/datasets/MahtaFetrat/KaamelDict> - 120k entries
+  * <https://github.com/tihu-nlp/tihudict> - 47k entries (big) 2k (demo)
 
-  others
+  ## G2P converters
 
-  * <https://github.com/mohamad-hasan-sohan-ajini/G2P>
-  * <https://github.com/AzamRabiee/Persian_G2P>
-  * <https://github.com/PasaOpasen/PersianG2P>
-  * <https://github.com/tihu-nlp/tihudict>
- 
-  online
+  * <https://github.com/AdolfVonKleist/Phonetisaurus>  - when trained on Kaamel PER 5.9%, WER 32.1%
+  * <https://github.com/mohamad-hasan-sohan-ajini/G2P> - no pretrained model
+  * <https://github.com/PasaOpasen/PersianG2P> - PER 21.6% WER 62%
+  * <https://github.com/AzamRabiee/Persian_G2P> - same as above, just refactored checkpoint
+  * <https://github.com/sajadalipour7/Persian-Grapheme-To-Phoneme-With-Transformer> - PER 14.4%, WER 62.5%
+
+  ## Online resources
 
   * <https://www.peykaregan.ir/dataset>
   * <https://www.wiktionary.org>
@@ -41,7 +43,8 @@
   
   * Tihu dictionary has some rare phones like '_' and '^' the purpose of which is unknown.
   * Glottal stop affects prosody but doesn't really have acoustic realization in fast speech, so it is removed in HMM models (Vosk). It is still beneficial to keep it in neural models (TTS)
-  * PersianG2P predictor is based on RNN and more or less accurate but vulnerable to hallucinations, so not really perfect. WFST predictor like Phonetisaurus makes more sense probably.
+  * PersianG2P predictor is based on RNN and more or less accurate but vulnerable to hallucinations, so not really perfect. WFST predictor like Phonetisaurus much more accurate even the algorithm is simple by using bigger dataset.
+  * Overall, more advanced model trained on Kaamel would perform much better (transformer)
   * Kaamel dictionary has separate phoneme IPA sound 'ɡ' (u0x261) as opposed to 'g'. Not very frequent and purpose is unknown.
   * Kaamel dictionary is most complete but has questionable entries as well
 
