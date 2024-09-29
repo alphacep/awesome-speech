@@ -34,14 +34,23 @@
   * <https://www.wiktionary.org/>
   * http://farhang.apll.ir/>
 
+  notes
+
+  Overall, Persian phoneset is more or less stable across packages. Subtle differences:
+  
+  * Tihu dictionary has some rare phones like '_' and '^' the purpose of which is unknown.
+  * Glottal stop affects prosody but doesn't really have acoustic realization in fast speech, so it is removed in HMM models (Vosk). It is still beneficial to keep it in neural models (TTS)
+  * PersianG2P predictor is based on RNN and more or less accurate but vulnerable to hallucinations, so not really perfect. WFST predictor like Phonetisaurus makes more sense probably.
+  * Kaamel dictionary has separate phoneme IPA sound 'ɡ' (u0x261) as opposed to 'g'. Not very frequent and purpose is unknown.
+  * Kaamel dictionary is most complete but has questionable entries as well
+
 ## Normalization
 
   * <https://github.com/haraai/ParsiNorm>
 
-  Overall note, Persian literate language uses zero-width-non-joiner
-  (u200c) for many words an the patterns to apply it are non-regularand
-  some people expend it to present in recognized texts. Web texts of
-  course do not have it.
+  There is "Colloquial Persian" which is somewhat different from spoken Persian. Yet to find the package to convert between them.
+
+  Persian literate language uses zero-width-non-joiner (u200c) for many words an the patterns to apply it are non-regularand some people expend it to present in recognized texts. Web texts of course do not have it.
 
 ## Other useful tools
 
