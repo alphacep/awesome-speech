@@ -9,6 +9,7 @@
   * <https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-persian-v3>
   * <https://huggingface.co/makhataei/Whisper-Small-Ctejarat>
   * <https://huggingface.co/hezarai/whisper-small-fa>
+  * <https://huggingface.co/vargha/whisper-large-v3-tuned-Persian>
 
 ## Text to speech models
 
@@ -30,11 +31,11 @@
  
   online
 
-  * <https://www.peykaregan.ir/dataset/>
-  * <https://www.wiktionary.org/>
-  * http://farhang.apll.ir/>
+  * <https://www.peykaregan.ir/dataset>
+  * <https://www.wiktionary.org>
+  * <http://farhang.apll.ir>
 
-  notes
+  ### Notes
 
   Overall, Persian phoneset is more or less stable across packages. Subtle differences:
   
@@ -47,6 +48,8 @@
 ## Normalization
 
   * <https://github.com/haraai/ParsiNorm>
+
+  ### Notes
 
   There is "Colloquial Persian" which is somewhat different from spoken Persian. Yet to find the package to convert between them.
 
