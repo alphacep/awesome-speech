@@ -25,10 +25,10 @@
 
   ## G2P converters
 
-  * <https://github.com/AdolfVonKleist/Phonetisaurus>  - when trained on Kaamel PER 5.9%, WER 32.1%
+  * <https://github.com/AdolfVonKleist/Phonetisaurus>  - when trained on Kaamel PER 3.8%, WER 21.9%
   * <https://github.com/mohamad-hasan-sohan-ajini/G2P> - no pretrained model
   * <https://github.com/PasaOpasen/PersianG2P> - PER 21.6% WER 62%
-  * <https://github.com/AzamRabiee/Persian_G2P> - same as above, just refactored checkpoint
+  * <https://github.com/AzamRabiee/Persian_G2P> - same as above, just refactored code and same checkpoint file
   * <https://github.com/sajadalipour7/Persian-Grapheme-To-Phoneme-With-Transformer> - PER 14.4%, WER 62.5%
 
   ## Online resources
