@@ -43,7 +43,7 @@
   
   * Tihu dictionary has some rare phones like '_' and '^' the purpose of which is unknown.
   * Glottal stop affects prosody but doesn't really have acoustic realization in fast speech, so it is removed in HMM models (Vosk). It is still beneficial to keep it in neural models (TTS)
-  * PersianG2P predictor is based on RNN and more or less accurate but vulnerable to hallucinations, so not really perfect. WFST predictor like Phonetisaurus much more accurate even the algorithm is simple by using bigger dataset.
+  * PersianG2P predictor is based on RNN and vulnerable to hallucinations, so not really perfect. Also, the Tihu dataset is small. WFST predictor like Phonetisaurus much more accurate even the algorithm is simple by using bigger dataset.
   * Overall, more advanced model trained on Kaamel would perform much better (transformer)
   * Kaamel dictionary has separate phoneme IPA sound 'ɡ' (u0x261) as opposed to 'g'. Not very frequent and purpose is unknown.
   * Kaamel dictionary is most complete but has questionable entries as well
