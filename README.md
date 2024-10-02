@@ -6,3 +6,5 @@ here resources that implement language-specific features.
 For now only few languages here but we will add more.
 
   * [Persian](persian.md)
+  * [Turkish](turkish.md)
+  * [Arabic](arabic.md)
