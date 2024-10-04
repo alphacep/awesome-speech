@@ -17,6 +17,7 @@
   * <https://github.com/karim23657/Persian-tts-coqui>
   * <https://huggingface.co/gyroing/Persian-Piper-Model-gyro>
   * <https://github.com/SadeghKrmi/pertts-streamlit> - web interface for Piper voices
+  * <https://github.com/Adibian/Persian-MultiSpeaker-Tacotron2>
 
 ## Dictionaries and G2P
 
@@ -52,9 +53,12 @@
 
 No established code here but here are some variants
 
+  * <https://github.com/roshan-research/hazm>
+
+Others
+
   * <https://github.com/haraai/ParsiNorm>
   * <https://github.com/ICTRC/Parsivar>
-  * <https://github.com/roshan-research/hazm>
   * <https://github.com/5j9/num2fawords>
   * [Shenhasa Cleanup](https://github.com/shenasa-ai/speech2text/blob/master/language_model/clean_text.py)
   * [Nemo Cleanup](https://huggingface.co/nvidia/stt_fa_fastconformer_hybrid_large)
