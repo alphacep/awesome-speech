@@ -50,17 +50,20 @@
 
 ## Normalization
 
+No established code here but here are some variants
+
   * <https://github.com/haraai/ParsiNorm>
+  * <https://github.com/ICTRC/Parsivar>
+  * <https://github.com/roshan-research/hazm>
+  * <https://github.com/5j9/num2fawords>
+  * [Shenhasa Cleanup](https://github.com/shenasa-ai/speech2text/blob/master/language_model/clean_text.py)
+  * [Nemo Cleanup](https://huggingface.co/nvidia/stt_fa_fastconformer_hybrid_large)
 
   ### Notes
 
   There is "Colloquial Persian" which is somewhat different from spoken Persian. Yet to find the package to convert between them.
 
   Persian literate language uses zero-width-non-joiner (u200c) for many words an the patterns to apply it are non-regularand some people expend it to present in recognized texts. Web texts of course do not have it.
-
-## Other useful tools
-
-  * <https://github.com/ICTRC/Parsivar>
 
 ## Other awesome lists for Persian
 
