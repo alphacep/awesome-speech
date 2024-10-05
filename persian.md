@@ -62,6 +62,7 @@ Others
   * <https://github.com/5j9/num2fawords>
   * [Shenhasa Cleanup](https://github.com/shenasa-ai/speech2text/blob/master/language_model/clean_text.py)
   * [Nemo Cleanup](https://huggingface.co/nvidia/stt_fa_fastconformer_hybrid_large)
+  * https://github.com/persian-tools/persian-tools - Javascript
 
   ### Notes
 
