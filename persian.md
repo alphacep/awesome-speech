@@ -1,5 +1,6 @@
 ## Speech recognition models
 
+  * Vosk <https://alphacephei.com/vosk/models>
   * <https://huggingface.co/manifoldix/xlsr-fa-lm>
   * <https://huggingface.co/Neurai/NeuraSpeech_900h>
   * <https://huggingface.co/Neurai/NeuraSpeech_WhisperBase>
@@ -10,6 +11,32 @@
   * <https://huggingface.co/makhataei/Whisper-Small-Ctejarat>
   * <https://huggingface.co/hezarai/whisper-small-fa>
   * <https://huggingface.co/vargha/whisper-large-v3-tuned-Persian>
+
+### ASR datasets (testing)
+
+ * [Common Voice 17.0](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
+ * [Fleurs](https://huggingface.co/datasets/google/fleurs)
+ * Meetings (internal)
+
+### ASR results
+
+WER results
+
+|              | Vosk 0.5 | Vosk Small 0.5 | Vosk 0.42     | Vosk Small 0.42 | Nemo FC | Neuro FC | Neuro Whisper | Manifoldix XLS-R |
+|--------------|----------|----------------|---------------|-----------------|---------|----------|---------------|------------------|
+| Common Voice |   29.7   |     31.2       |   16.7        |    23.4         | **16.2**|  24.6    |  23.5         |     29.5         |
+| Meetings     |   53.1   |     54.4       |   **37.9**    |    43.6         |  60.6   |  51.2    |  45.4         |     46.0         |
+| Fleurs       |   25.1   |     26.2       |   **11.1**    |    14.0         |  43.8   |  23.7    |  25.3         |     24.5         |
+
+CER results
+
+|              | Vosk 0.5 | Vosk Small 0.5 | Vosk 0.42     | Vosk Small 0.42 | Nemo FC | Neuro FC | Neuro Whisper | Manifoldix XLS-R |
+|--------------|----------|----------------|---------------|-----------------|---------|----------|---------------|------------------|
+| Common Voice |   10.0   |     10.7       |   5.7         |    8.7          |**3.3**  |  7.6     |  6.8          |     7.7          |
+| Meetings     |   27.4   |     27.8       |    18.7       |    22.4         |  40.1   |  26.0    |  23.0         |    **17.9**      |
+| Fleurs       |   7.0    |      7.5       |   **4.0**     |    5.1          |  27.2   |   9.0    |   6.7         |     6.5          |
+
+Nemo is overtrained on Common Voice
 
 ## Text to speech models
 
