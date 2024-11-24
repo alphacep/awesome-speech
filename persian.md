@@ -11,6 +11,7 @@
   * <https://huggingface.co/makhataei/Whisper-Small-Ctejarat>
   * <https://huggingface.co/hezarai/whisper-small-fa>
   * <https://huggingface.co/vargha/whisper-large-v3-tuned-Persian>
+  * <https://github.com/areffarhadi/persian-asr>
 
 ### ASR datasets (testing)
 
