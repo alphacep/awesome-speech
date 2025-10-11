@@ -60,6 +60,7 @@ Nemo is overtrained on Common Voice
   * <https://github.com/PasaOpasen/PersianG2P> - PER 21.6% WER 62%
   * <https://github.com/AzamRabiee/Persian_G2P> - same as above, just refactored code and same checkpoint file
   * <https://github.com/sajadalipour7/Persian-Grapheme-To-Phoneme-With-Transformer> - PER 14.4%, WER 62.5%
+  * <https://github.com/de-mh/persian_phonemizer> - phonemizer with POS tagger
 
   ## Online resources
 
