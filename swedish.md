@@ -2,6 +2,7 @@ Main resources
 
   * NST speech database https://huggingface.co/datasets/KTH/nst
   * KBLab database rikvox and models https://huggingface.co/KBLab
+  * Eurospeech https://huggingface.co/datasets/disco-eth/EuroSpeech
   * Granary dataset
 
 Many models
