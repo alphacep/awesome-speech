@@ -30,6 +30,7 @@ WER results
 | KBLab Whisper Large       | 3.9          |  5.0   |  1.6     |  14.5    |
 | KrokoASR SV               | 8.0          |  11.1  |  6.0     |  14.5    |
 | Nemo Parakeet 0.6 B V3    | 18.5         | 16.7   |  26.7    |  17.4    |  
+| Whisper V3 Turbo          | 13.8         |  8.6   |  8.8     |  17.2    |
 | Vosk Large                | 25.6         |  20.7  |  4.8     |  18.4    |
 | Vosk Small                | 32.2         | 30.5   |  12.7    |  25.1    |
 | Vosk Rhasspy              | 28.6         | 35.4   |  13.2    |  28.8    |
