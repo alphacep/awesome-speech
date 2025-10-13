@@ -1,11 +1,11 @@
-Main resources
+### Main resources
 
   * NST speech database https://huggingface.co/datasets/KTH/nst
   * KBLab database rikvox and models https://huggingface.co/KBLab
   * Eurospeech https://huggingface.co/datasets/disco-eth/EuroSpeech
   * Granary dataset
 
-Many models
+### Many ASR models
 
   * https://github.com/rhasspy/sv_kaldi-rhasspy
   * https://huggingface.co/jimregan/kaldi-sprakbanken_swe
@@ -13,9 +13,23 @@ Many models
   * https://huggingface.co/Banafo/Kroko-ASR (supports Swedish)
   * https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
 
-TextCorpora
+### TextCorpora
 
   * Fineweb2
   * Opensubtitles
 
 Lexicon is part of NST database
+
+
+### ASR results
+
+WER results
+
+|                           | Common Voice | Fleurs | NST Test | Podcasts |
+|---------------------------|--------------|--------|----------|----------|
+| KBLab Whisper Large       | 3.9          |  5.0   |  1.6     |  14.5    |
+| KrokoASR SV               | 8.0          |  11.1  |  6.0     |  14.5    |
+| Nemo Parakeet 0.6 B V3    | 18.5         | 16.7   |  26.7    |  17.4    |  
+| Vosk Large                | 25.6         |  20.7  |  4.8     |  18.4    |
+| Vosk Small                | 32.2         | 30.5   |  12.7    |  25.1    |
+| Vosk Rhasspy              | 28.6         | 35.4   |  13.2    |  28.8    |
