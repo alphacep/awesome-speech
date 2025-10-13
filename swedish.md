@@ -33,5 +33,5 @@ WER results
 | Whisper V3 Turbo          | 13.8         |  8.6   |  8.8     |  17.2    |
 | Nemo Parakeet 0.6 B V3    | 18.5         | 16.7   |  26.7    |  17.4    |  
 | Vosk Large                | 25.6         |  20.7  |  4.8     |  18.4    |
-| Vosk Small                | 32.2         | 30.5   |  12.7    |  25.1    |
-| Vosk Rhasspy              | 28.6         | 35.4   |  13.2    |  28.8    |
+| Vosk Rhasspy Small        | 32.2         | 30.5   |  12.7    |  25.1    |
+| Vosk Rhasspy Original     | 28.6         | 35.4   |  13.2    |  28.8    |
