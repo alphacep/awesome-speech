@@ -9,4 +9,5 @@ For now only few languages here but we will add more.
   * [Turkish](turkish.md)
   * [Arabic](arabic.md)
   * [Swedish](swedish.md)
+  * [Norwegian](norwegian.md)
 
