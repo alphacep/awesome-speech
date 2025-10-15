@@ -25,13 +25,14 @@ Lexicon is part of NST database
 
 WER results
 
-|                           | Common Voice | Fleurs | NST Test | Podcasts |
-|---------------------------|--------------|--------|----------|----------|
-| KBLab Whisper Large       | 3.9          |  5.0   |  1.6     |  14.5    |
-| KrokoASR SV               | 8.0          |  11.1  |  6.0     |  14.5    |
-| Whisper V3 Large          | 8.7          |  7.7   |  8.2     |  16.5    |
-| Whisper V3 Turbo          | 13.8         |  8.6   |  8.8     |  17.2    |
-| Nemo Parakeet 0.6 B V3    | 18.5         | 16.7   |  26.7    |  17.4    |  
-| Vosk Large                | 25.6         |  20.7  |  4.8     |  18.4    |
-| Vosk Rhasspy Small        | 32.2         | 30.5   |  12.7    |  25.1    |
-| Vosk Rhasspy Original     | 28.6         | 35.4   |  13.2    |  28.8    |
+|                           | Common Voice | Fleurs | NST Test | Podcasts | Yodas |
+|---------------------------|--------------|--------|----------|----------|-------|
+| KBLab Whisper Large       | 3.9          |  5.0   |  1.6     |  14.5    |  27.9 |
+| KrokoASR SV               | 8.0          |  11.1  |  6.0     |  14.5    | 32.5  |
+| Whisper V3 Large          | 8.7          |  7.7   |  8.2     |  16.5    |       |
+| Whisper V3 Turbo          | 13.8         |  8.6   |  8.8     |  17.2    |       |
+| Nemo Parakeet 0.6 B V3    | 18.5         | 16.7   |  26.7    |  17.4    | 34.1  |
+| Vosk Large                | 25.6         |  20.7  |  4.8     |  18.4    |       |
+| Vosk Small                | 28.9         |  24.9  |  4.8     |  18.4    | 61.1  |
+| Vosk Rhasspy Small        | 32.2         | 30.5   |  12.7    |  25.1    | 63.1  |
+| Vosk Rhasspy Original     | 28.6         | 35.4   |  13.2    |  28.8    |       |
