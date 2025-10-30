@@ -1,4 +1,10 @@
+### Language notes
+
+Essentially a mix of English, Spanish and Tagalog (with many dialects). Very hard to build a good LM, great challenge for code switching.
+
 ### Some models
+
+Trained on 500 hours
 
 https://huggingface.co/NCSpeech/stt_tl_fastconformer_hybrid_large
 
@@ -6,7 +12,10 @@ https://huggingface.co/NCSpeech/stt_tl_fastconformer_hybrid_large
 
 WER results
 
+Overall, no good stable model, yet to converge
+
 |                           | Fleurs | TV1  | TV2  | Magicdata |
+|---------------------------|--------|------|------|-----------|
 | Vosk Fed                  | 20.1   | 37.1 | 67.0 | 36.6      |
 | Vosk                      | 18.6   | 17.7 | 30.2 | 32.7      |
 | Whisper Large             | 12.4   | 27.0 | 25.4 | 33.1      |
