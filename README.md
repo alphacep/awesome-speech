@@ -11,4 +11,5 @@ For now only few languages here but we will add more.
   * [Swedish](swedish.md)
   * [Norwegian](norwegian.md)
   * [Greek](greek.md)
-    
+  * [Vietnamese](vietnamese.md)
+  * [Filipino](filipino.md)
