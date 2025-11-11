@@ -36,3 +36,5 @@ WER results
 | Vosk Small                | 28.9         |  24.9  |  9.2     |  24.7    | 61.1  |
 | Vosk Rhasspy Small        | 32.2         | 30.5   |  12.7    |  25.1    | 63.1  |
 | Vosk Rhasspy Original     | 28.6         | 35.4   |  13.2    |  28.8    |       |
+| Omnispeech CTC 300M       | 37.6         | 37.7   |  38.9    |  41.7    | 71.0  |
+
