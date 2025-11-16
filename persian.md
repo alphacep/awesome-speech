@@ -47,6 +47,7 @@ Nemo is overtrained on Common Voice
   * <https://github.com/SadeghKrmi/pertts-streamlit> - web interface for Piper voices
   * <https://github.com/Adibian/Persian-MultiSpeaker-Tacotron2>
   * <https://github.com/AlisterTA/Persian-text-to-speech>
+  * <https://huggingface.co/Thomcles/Chatterbox-TTS-Persian-Farsi>
 
 ## Dictionaries and G2P
 
