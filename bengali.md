@@ -6,11 +6,11 @@ The language is divided between India and Bangladesh and despite claims Kolkata 
 
 Major efforts to support Bangla ASR:
 
-https://huggingface.co/ai4bharat
-https://huggingface.co/bengaliAI
-https://huggingface.co/SpireLab
-https://huggingface.co/hishab
-https://huggingface.co/SUST-CSE-Speech
+  * <https://huggingface.co/ai4bharat>
+  * <https://huggingface.co/bengaliAI>
+  * <https://huggingface.co/SpireLab>
+  * <https://huggingface.co/hishab>
+  * <https://huggingface.co/SUST-CSE-Speech>
 
 A lot of datasets were recorded and collected, however, datasets are not very diverse, for example not so much telephony data.
 
