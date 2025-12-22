@@ -10,3 +10,9 @@ WER
 |         Rover             | 22.8   | 3.2   |    7.1  |
 
 Rover = Vosk + Kroko + Parakeet
+
+
+Some extra leaderboards
+
+<https://huggingface.co/spaces/idsudd/open_asr_leaderboard_cl> - Chilean Spanish
+<https://huggingface.co/datasets/astroza/es-cl-asr-test-only-full> - Dataset
