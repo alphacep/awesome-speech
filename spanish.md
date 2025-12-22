@@ -1,5 +1,4 @@
-WER
-
+## WER
 
 |                           | Calls  | MLS   | MTedX   |
 |---------------------------|--------|-------|---------|
@@ -12,7 +11,8 @@ WER
 Rover = Vosk + Kroko + Parakeet
 
 
-Some extra leaderboards
+## Some extra leaderboards
 
 <https://huggingface.co/spaces/idsudd/open_asr_leaderboard_cl> - Chilean Spanish
+
 <https://huggingface.co/datasets/astroza/es-cl-asr-test-only-full> - Dataset
