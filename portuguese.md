@@ -16,4 +16,5 @@ Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
 ## Other datasets to try
 
   * MTEDX <https://www.openslr.org/100/>
-  * Granary <https://huggingface.co/datasets/nvidia/Granary>
+  * Granary <https://huggingface.co/datasets/nvidia/Granary> (mostly includes Voxpopuli for Portuguese)
+  * Voxpopuli (audio unlabelled but Granary seem to have labels)
