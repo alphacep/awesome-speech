@@ -23,6 +23,7 @@ Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
   * <https://huggingface.co/datasets/TigreGotico/FalaBracarense_splits>
   * <https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE>
   * <https://huggingface.co/datasets/falabrasil/cetuc>
+  * <https://huggingface.co/datasets/espnet/yodas2> - huge Portuguese dataset
 
 ## Notable people and organizations on HF
 
