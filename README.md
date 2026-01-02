@@ -5,11 +5,14 @@ here resources that implement language-specific features.
 
 For now only few languages here but we will add more.
 
-  * [Persian](persian.md)
-  * [Turkish](turkish.md)
   * [Arabic](arabic.md)
-  * [Swedish](swedish.md)
-  * [Norwegian](norwegian.md)
-  * [Greek](greek.md)
-  * [Vietnamese](vietnamese.md)
+  * [Bengali](bengali.md)
   * [Filipino](filipino.md)
+  * [Greek](greek.md)
+  * [Norwegian](norwegian.md)
+  * [Persian](persian.md)
+  * [Portuguese](portuguese.md)
+  * [Spanish](spanish.md)
+  * [Swedish](swedish.md)
+  * [Turkish](turkish.md)
+  * [Vietnamese](vietnamese.md)
