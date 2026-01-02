@@ -13,3 +13,7 @@
 
 Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
 
+## Other datasets to try
+
+MTEDX <https://www.openslr.org/100/>
+Granary <https://huggingface.co/datasets/nvidia/Granary>
