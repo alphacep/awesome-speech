@@ -14,6 +14,10 @@
 
 Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
 
+## Models to try
+
+ * <https://huggingface.co/lgris/w2v_pretrained_podcasts_large> (needs good LM)
+
 ## Other datasets to try
 
   * MTEDX <https://www.openslr.org/100/>
@@ -24,6 +28,10 @@ Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
   * <https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE>
   * <https://huggingface.co/datasets/falabrasil/cetuc>
   * <https://huggingface.co/datasets/espnet/yodas2> - huge Portuguese dataset
+  * <https://huggingface.co/datasets/PolyAI/minds14>
+
+    
+  * <https://huggingface.co/datasets/opedromartins/ASR-datasets-ptbr> - everything preprocessed
 
 ## Notable people and organizations on HF
 
@@ -31,3 +39,4 @@ Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
   * <https://huggingface.co/yuriyvnv> from <https://huggingface.co/my-north-ai> - trains Whisper mostly with sytnthetic data
   * <https://huggingface.co/lgris> - training wav2vec
   * <https://huggingface.co/falabrasil>
+  * <https://huggingface.co/laudite-ufg>
