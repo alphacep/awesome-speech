@@ -35,9 +35,10 @@ We test the following models:
 
 Despite data amounts the WER is still quite high. This is mostly due to lack of proper annotation in training databases. Models are very dialect-dependent.
 
-|                           | CV  | Fleurs | Indic TTS|       Kathbath | Kathbath Noisy | Respin | Subakko | Banspeech |
-|---------------------------|-----|--------|----------|----------------|----------------|--------|---------|-----------|
-|         IndicConformer BN | 15.7 | 18.1  |   37.5   |         13.3   |     14.9       | 38.1   |   35.1  | 41.1      |
-|         Hishab Titu BN    | 29.4 | 39.2  |   53.4   |         31.8   |     33.3       |  45.3  |   34.7  | 38.6      |
-|         Tugstugi Whisper  | 12.8 | 17.1  |   22.9   |         12.8   |     15.1       | 13.5   |   21.0  | 28.7      |
-|         QDV206 Wav2Vec    | 10.0 | 17.5  |   27.5   |         11.8   |     12.9       | 16.5   |   19.5  | 32.1      |
+|                             | CV  | Fleurs | Indic TTS|       Kathbath | Kathbath Noisy | Respin | Subakko | Banspeech |
+|-----------------------------|-----|--------|----------|----------------|----------------|--------|---------|-----------|
+|         IndicConformer BN   | 15.7 | 18.1  |   37.5   |         13.3   |     14.9       | 38.1   |   35.1  | 41.1      |
+|         Hishab Titu BN      | 29.4 | 39.2  |   53.4   |         31.8   |     33.3       |  45.3  |   34.7  | 38.6      |
+|         Tugstugi Whisper    | 12.8 | 17.1  |   22.9   |         12.8   |     15.1       | 13.5   |   21.0  | 28.7      |
+|         QDV206 Wav2Vec      | 10.0 | 17.5  |   27.5   |         11.8   |     12.9       | 16.5   |   19.5  | 32.1      |
+|Sherpa 0.60 Streaming 32/128 | 17.9 | 20.6  |   30.9   |         19.3   |     22.5       | 16.6   |   24.6  | 32.9      |
