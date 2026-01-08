@@ -22,6 +22,7 @@
   * https://huggingface.co/datasets/kadirnar/combined-turkish-datasets ???
   * https://huggingface.co/datasets/cubukcum/TurkishVoiceDataset (243k Youtube crawl)
   * https://huggingface.co/datasets/Codyfederer/tr-podcast-dataset
+  * https://huggingface.co/datasets/ysdede/khanacademy-turkish
 
 # Notable accounts
 
