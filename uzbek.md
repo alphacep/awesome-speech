@@ -12,9 +12,8 @@ Turkic language with quite variable accents from different regions
    * Vosk (ok model for the size)
    * https://huggingface.co/rifkat/uzbek-stt-v2 (recommended)
    * https://huggingface.co/Kotib/uzbek_stt_v1
-     
    * https://huggingface.co/nvidia/stt_uz_fastconformer_hybrid_large_pc
-   * Omnilingual 7B (yet to test for Uzbek)
+   * Omnilingual 7B V2 https://github.com/facebookresearch/omnilingual-asr
    * MMS 1B + Rifkat LM (above) https://github.com/facebookresearch/fairseq/tree/main/examples/mms
 
 ## WER
