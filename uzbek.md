@@ -22,9 +22,10 @@ Turkic language with quite variable accents from different regions
 |                               | CV    | Digits  | Fleurs  |  ISSAI |
 |------------------------------|--------|---------|---------|---------|
 |         Vosk Small 0.24      | 13.2   | 54.9    |   29.1  |   13.9  |
-|   Nvidia Fastconformer       | 6.9    | 59.5    |   14.9  |   14.4  |
 |         MMS1B + LM           |  18.7  | 94.6    |   22.0  |   28.2  |
+| Omnilingual LLM 7B V2        |  21.1  | 58.4    |   16.4  |   29.3  |
+|   Nvidia Fastconformer       | 6.9    | 59.5    |   14.9  |   14.4  |
 | Rifkat STT v2 (wav2vec + LM) |   8.3  | 35.9    |   23.5  |   7.7   |
-| Whisper Medium Kotib         | 11.3   | 29.5    |   13.4 |   14.0  |
+| Whisper Medium Kotib         | 11.3   | 29.5    |   13.4  |   14.0  |
 |  Rover                       |   7.0  | 33.9    |   16.4  |   7.4   |
 
