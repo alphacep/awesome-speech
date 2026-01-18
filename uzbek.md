@@ -6,6 +6,7 @@ Turkic language with quite variable accents from different regions
    * UzbekVoice
    * ISSAI UZ
    * Fleurs
+   * https://huggingface.co/islomov/datasets  (youtube, podcasts, it)
 
 ## Notable models
 
