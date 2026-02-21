@@ -2,6 +2,15 @@ A lot of useful models and data were cleaned and created during BengaliAI compet
 
 https://bengaliai.github.io
 
+Second competition held in January 2026
+
+https://www.kaggle.com/competitions/dl-sprint-4-0-bengali-speaker-diarization-challenge
+
+https://www.kaggle.com/competitions/dl-sprint-4-0-bengali-long-form-speech-recognition
+
+Described in [Bengali-Loop: Community Benchmarks for Long-Form Bangla ASR and Speaker Diarization
+](https://arxiv.org/abs/2602.14291)
+
 The language is divided between India and Bangladesh and despite claims Kolkata Bangla and Bangladesh Bangla are different in terms of accents, some minor grammar variations and vocabulary. So datasets from both regions have to be collected.
 
 Major efforts to support Bangla ASR:
