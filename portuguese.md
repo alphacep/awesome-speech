@@ -10,9 +10,10 @@
 | Whisper V3 Large My North | 24.2   |    ?    |      ?  |   5.9   |
 |         Kroko PT 128L     | 28.2   | 24.2    |    3.7  |   5.4   |
 |         FunASR Nano       | 148.7  | 87.1    |   24.4  |   20.3  |
-|         Rover             | 24.8   | 22.8    |    4.0  |   4.1   |
+|         Cohere 03-2026    | 26.2   | 25.8    |    3.7  |   4.6   | 
+|         Rover             | 20.2   | 21.6   |    3.3   |   3.9   |
 
-Rover = Kroko + Parakeet + Vosk (calls) or Kroko + Parakeet + Whisper (other)
+Rover = Kroko + Cohere + Parakeet + Vosk (calls) or Kroko + Cohere + Parakeet + Whisper (other)
 
 ## Models to try
 
