@@ -11,9 +11,10 @@
 |         Kroko PT 128L     | 28.2   | 24.2    |    3.7  |   5.4   |
 |         FunASR Nano       | 148.7  | 87.1    |   24.4  |   20.3  |
 |         Cohere 03-2026    | 26.2   | 25.8    |    3.7  |   4.6   | 
-|         Rover             | 22.0   | 20.7   |    3.2   |   3.9   |
+|         Qwen3 1.7B        | 28.1   | 25.6    |    5.5  |   4.3   | 
+|         Rover             | 22.0   | 20.3    |    3.0   |   3.7   |
 
-Rover = Kroko + Cohere + Parakeet + Vosk (calls) or Kroko + Cohere + Parakeet + Whisper NC (other)
+Rover = Kroko + Cohere + Parakeet + Vosk (calls) or Kroko + Cohere + Parakeet + Qwen + Whisper NC (other)
 
 ## Models to try
 
