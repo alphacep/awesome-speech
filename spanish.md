@@ -9,6 +9,7 @@
 |         Cohere 2B 2026 03 | 30.0   | 2.3   |    6.3  |  3.5 |
 |         Qwen3 1.7B        | 26.0   | 3.9   |    7.0  |  2.9 |
 |         Whispe3 Turbo     | 30.9   | 3.5   |    6.7  |  2.9 |
+|    Moonshine Base Spanish | 35.4   | 5.0   |  9.3    |  4.2 |
 |         Rover             | 20.9   | 2.5   |  5.9    |  2.4 |
 
 Rover = Vosk + Kroko + Parakeet + Qwen3 + Cohere
