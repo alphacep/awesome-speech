@@ -8,6 +8,7 @@ For now only few languages here but we will add more.
   * [Arabic](arabic.md)
   * [Bengali](bengali.md)
   * [Filipino](filipino.md)
+  * [Georgian](georgian.md)
   * [Greek](greek.md)
   * [Norwegian](norwegian.md)
   * [Persian](persian.md)
@@ -15,4 +16,5 @@ For now only few languages here but we will add more.
   * [Spanish](spanish.md)
   * [Swedish](swedish.md)
   * [Turkish](turkish.md)
+  * [Uzbek](uzbek.md)
   * [Vietnamese](vietnamese.md)
