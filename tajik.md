@@ -5,7 +5,7 @@ Useful teams and people
 
 Datasets
 
-  * https://huggingface.co/datasets/google/fleurrs
+  * https://huggingface.co/datasets/google/fleurs
   * https://huggingface.co/datasets/Peacockery/tajik-asr-corpus-v3
   * https://huggingface.co/datasets/muhtasham/tajik-asr
 
