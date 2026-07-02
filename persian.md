@@ -13,12 +13,28 @@
   * <https://huggingface.co/vargha/whisper-large-v3-tuned-Persian>
   * <https://github.com/areffarhadi/persian-asr>
   * <https://huggingface.co/aictsharif> - Whisper Base/Small/Tiny/Large, for example <https://huggingface.co/aictsharif/whisper-tiny-fa>
+  * <https://huggingface.co/Reza2kn/Shenava-Koochik-v1.0>
+  * <https://huggingface.co/Reza2kn/Shenava-Rizeh-v1.0>
+  * <https://huggingface.co/Reza2kn/Shenava-Rizeh-Pizeh-v1.0>
+
+## Notable people
+
+  * <https://huggingface.co/Reza2kn>
+  * <https://github.com/mah92>
 
 ### ASR datasets (testing)
 
  * [Common Voice 17.0](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
  * [Fleurs](https://huggingface.co/datasets/google/fleurs)
  * Meetings (internal)
+
+Many existing Persian datasets here
+
+  * <https://huggingface.co/datasets/Reza2kn/persian-asr-text-2.69M-deduped>
+
+To process
+
+  * <https://huggingface.co/datasets/Reza2kn/persian-asr-relabeled-gemini>
 
 ### ASR results
 
