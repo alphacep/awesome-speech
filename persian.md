@@ -1,8 +1,17 @@
 ## Speech recognition models
 
+### Notable models
+
   * Vosk <https://alphacephei.com/vosk/models>
-  * <https://huggingface.co/manifoldix/xlsr-fa-lm>
+  * <https://huggingface.co/Reza2kn/Shenava-Koochik-v1.0>
+  * <https://huggingface.co/Reza2kn/Shenava-Rizeh-v1.0>
+  * <https://huggingface.co/Reza2kn/Shenava-Rizeh-Pizeh-v1.0>
   * <https://huggingface.co/Neurai/NeuraSpeech_900h>
+  * <https://huggingface.co/Peacockery/omni-ctc-300m-farsi>
+
+Other historical models
+
+  * <https://huggingface.co/manifoldix/xlsr-fa-lm>
   * <https://huggingface.co/Neurai/NeuraSpeech_WhisperBase>
   * <https://modelscope.cn/models/iic/speech_UniASR_asr_2pass-fa-16k-common-vocab1257-pytorch-online>
   * <https://huggingface.co/steja/whisper-large-persian>
@@ -13,20 +22,21 @@
   * <https://huggingface.co/vargha/whisper-large-v3-tuned-Persian>
   * <https://github.com/areffarhadi/persian-asr>
   * <https://huggingface.co/aictsharif> - Whisper Base/Small/Tiny/Large, for example <https://huggingface.co/aictsharif/whisper-tiny-fa>
-  * <https://huggingface.co/Reza2kn/Shenava-Koochik-v1.0>
-  * <https://huggingface.co/Reza2kn/Shenava-Rizeh-v1.0>
-  * <https://huggingface.co/Reza2kn/Shenava-Rizeh-Pizeh-v1.0>
+
 
 ## Notable people
 
   * <https://huggingface.co/Reza2kn>
   * <https://github.com/mah92>
+  * <https://huggingface.co/Peacockery>
+  * <https://github.com/MahtaFetrat>
 
 ### ASR datasets (testing)
 
  * [Common Voice 17.0](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
  * [Fleurs](https://huggingface.co/datasets/google/fleurs)
  * Meetings (internal)
+ * <https://huggingface.co/datasets/Reza2kn/visualears-golden-6669>
 
 Many existing Persian datasets here
 
@@ -40,19 +50,30 @@ To process
 
 WER results
 
-|              | Vosk 0.5 | Vosk Small 0.5 | Vosk 0.42     | Vosk Small 0.42 | Nemo FC | Neuro FC | Neuro Whisper | Manifoldix XLS-R |
-|--------------|----------|----------------|---------------|-----------------|---------|----------|---------------|------------------|
-| Common Voice |   29.7   |     31.2       |   16.7        |    23.4         | **16.2**|  24.6    |  23.5         |     29.5         |
-| Meetings     |   53.1   |     54.4       |   **37.9**    |    43.6         |  60.6   |  51.2    |  45.4         |     46.0         |
-| Fleurs       |   25.1   |     26.2       |   **11.1**    |    14.0         |  43.8   |  23.7    |  25.3         |     24.5         |
+| Model             | Common Voice | Meetings | Fleurs | Visualears |
+|-------------------|-------------:|---------:|--------:|-------------
+| Vosk 0.42         |         16.7 |     37.9 |   11.1  |     14.4    |
+| Vosk Small 0.42   |         23.4 |     43.6 |    14.0 |      19.20  |
+| Nemo FC           |         16.2 |     60.6 |    43.8 |         -   |
+| Neuro FC          |         24.6 |     51.2 |    23.7 |      32.04  |
+| Neuro Whisper     |         23.5 |     45.4 |    25.3 |        -    |
+| Manifoldix XLS-R  |         29.5 |     46.0 |    24.5 |        -    |
+| Peacock Omni 300M |         23.1 |     33.33|    13.81 |     9.09   |
+|Reza2kn Koochik 1.0|     **13.26**| **32.36**|  **9.44**|    **8.11**|
 
-CER results
 
-|              | Vosk 0.5 | Vosk Small 0.5 | Vosk 0.42     | Vosk Small 0.42 | Nemo FC | Neuro FC | Neuro Whisper | Manifoldix XLS-R |
-|--------------|----------|----------------|---------------|-----------------|---------|----------|---------------|------------------|
-| Common Voice |   10.0   |     10.7       |   5.7         |    8.7          |**3.3**  |  7.6     |  6.8          |     7.7          |
-| Meetings     |   27.4   |     27.8       |    18.7       |    22.4         |  40.1   |  26.0    |  23.0         |    **17.9**      |
-| Fleurs       |   7.0    |      7.5       |   **4.0**     |    5.1          |  27.2   |   9.0    |   6.7         |     6.5          |
+### CER results
+
+| Model             | Common Voice | Meetings | Fleurs | Visualears |
+|-------------------|-------------:|---------:|--------:|-------------|
+| Vosk 0.42         |          5.7 |     18.7 |    4.0 |     3.90    |
+| Vosk Small 0.42   |          8.7 |     22.4 |     5.1 |    5.78    |
+| Nemo FC           |      **3.3** |     40.1 |    27.2 |      -     |
+| Neuro FC          |          7.6 |     26.0 |     9.0 |       9.53 |
+| Neuro Whisper     |          6.8 |     23.0 |     6.7 |     -      |
+| Manifoldix XLS-R  |          7.7 |     17.9 |     6.5 |      -     |
+| Peacock Omni 300M |          5.7 | **12.86**|    5.10 |   **2.18** |
+|Reza2kn Koochik 1.0|          4.08 |   13.42|    **3.35** |   2.65   |
 
 Nemo is overtrained on Common Voice
 
@@ -65,6 +86,7 @@ Nemo is overtrained on Common Voice
   * <https://github.com/Adibian/Persian-MultiSpeaker-Tacotron2>
   * <https://github.com/AlisterTA/Persian-text-to-speech>
   * <https://huggingface.co/Thomcles/Chatterbox-TTS-Persian-Farsi>
+  * <https://github.com/MahtaFetrat/Piper-with-LCA-Phonemizer>
 
 ## Dictionaries and G2P
 
