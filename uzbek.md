@@ -24,14 +24,14 @@ Turkic language with quite variable accents from different regions
 
 |                               | CV    | Digits  | Fleurs  |  ISSAI | ISSAI Rare |
 |------------------------------|--------|---------|---------|---------|-----------|
-|         Vosk Small 0.24      | 13.6   | 42.4    |   29.1  |   13.9  | 24.19     |
-|         MMS1B + LM           |  17.2  | 80.1    |   21.0  |   28.2  | 43.40     |
-| Omnilingual LLM 7B V2        |  20.7  | 57.9    |   16.4  |   29.3  | 45.44     |
-|   Nvidia Fastconformer       |  8.9   | 57.5    |   14.9  |   14.4  | 28.85     |
-| Rifkat STT v2 (wav2vec + LM) |   6.5  | 28.0    |   23.5  |   7.7   | 21.75     |
-| Whisper Medium Kotib         |  8.9   | 9.7     |   13.4  |   14.0  | 33.42     |
-| **Whisper Medium Rubai**     |  8.5   | 10.0    |   10.6  |   12.1  | 31.73     |
-| GigaAM Multilingual          |  7.24  | 46.79   |  17.44  |   11.30 | 29.58     |
-| GigaAM Multilingual Large    |  5.52  | 38.95   |  14.42  |   8.77  | 26.40     |
-| Rover                        |  4.60  | 10.13    |  11.20 |   7.05  | 21.80     |
+|         Vosk Small 0.24      | 13.6   | 42.4    |   27.34 |   13.9  | 24.19     |
+|         MMS1B + LM           |  17.2  | 80.1    |   23.39 |   28.2  | 43.40     |
+| Omnilingual LLM 7B V2        |  20.7  | 57.9    |   16.9  |   29.3  | 45.44     |
+|   Nvidia Fastconformer       |  8.9   | 57.5    |   15.0  |   14.4  | 28.85     |
+| Rifkat STT v2 (wav2vec + LM) |   6.5  | 28.0    |   20.03 |   7.7   | 21.75     |
+| Whisper Medium Kotib         |  8.9   | 9.7     |   7.72  |   14.0  | 33.42     |
+| **Whisper Medium Rubai**     |  8.5   | 10.0    |   4.74  |   12.1  | 31.73     |
+| GigaAM Multilingual          |  7.24  | 46.79   |  11.96  |   11.30 | 29.58     |
+| GigaAM Multilingual Large    |  5.52  | 38.95   |  8.82   |   8.77  | 26.40     |
+| Rover                        |  4.60  | 10.13   |  5.54   |   7.05  | 21.80     |
 
