@@ -11,6 +11,7 @@
   * https://huggingface.co/Anilosan15/kani-tts-400m-0.3-tr
   * https://huggingface.co/ResembleAI/chatterbox
   * https://huggingface.co/Karayakar/Orpheus-TTS-Turkish-PT-5000
+  * https://github.com/freyavoiceai/FreyaTTS
 
 ## TTS datasets
 
@@ -29,6 +30,7 @@
   * https://huggingface.co/Anilosan15
   * https://huggingface.co/Karayakar
   * https://huggingface.co/kadirnar
+  * https://github.com/freyavoiceai
 
 ## Normalization
 
