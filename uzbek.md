@@ -33,6 +33,5 @@ Turkic language with quite variable accents from different regions
 | **Whisper Medium Rubai**     |  8.5   | 10.0    |   10.6  |   12.1  | 31.73     |
 | GigaAM Multilingual          |  7.24  | 46.79   |  17.44  |   11.30 | 29.58     |
 | GigaAM Multilingual Large    |  5.52  | 38.95   |  14.42  |   8.77  | 26.40     |
-|------------------------------|--------|---------|---------|---------|-----------|
 | Rover                        |  4.60  | 10.13    |  11.20 |   7.05  | 21.80     |
 
