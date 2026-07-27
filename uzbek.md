@@ -3,10 +3,15 @@ Turkic language with quite variable accents from different regions
 ### Datasets
 
    * CommonVoice
-   * UzbekVoice
+   * UzbekVoice https://huggingface.co/datasets/DavronSherbaev/uzbekvoice
    * ISSAI UZ
    * Fleurs
    * https://huggingface.co/islomov/datasets  (youtube, podcasts, it)
+   * https://huggingface.co/datasets/k2speech/FeruzaSpeech
+   * https://huggingface.co/instinct-org/collections - some loosely organized data
+   * https://huggingface.co/datasets/OvozifyLabs/asr_evaluate_set - evaluation dataset with Telegram messages
+   * https://huggingface.co/datasets/openbank-uz/youtube_transcriptions - large autotranscribed dataset (300k rows, gemini transcribed)
+   * https://huggingface.co/datasets/Abduqayum/Uzbek-STT-Dataset-780h - dataset from the above, gemini transribed
 
 ## Notable models
 
@@ -18,6 +23,9 @@ Turkic language with quite variable accents from different regions
    * https://huggingface.co/nvidia/stt_uz_fastconformer_hybrid_large_pc (fast conformer)
    * Omnilingual 7B V2 https://github.com/facebookresearch/omnilingual-asr
    * MMS 1B + Rifkat LM (above) https://github.com/facebookresearch/fairseq/tree/main/examples/mms
+   * https://huggingface.co/collections/navai-uz/navai-whisper-collection - Whisper models from Navai https://navai.pro
+   * https://huggingface.co/uzinfocom-edu-ai/asr-uz-fastconformer-large - fastconformer (cv + issai + uzvoice + islomov)
+   * https://huggingface.co/Abduqayum/whisper-uzbek-medium-callcenter - whisper with callcenter augmentation
    * ROVER (Rubai + Giga + Rifkat + Kotlib + Nemo)
 
 ## WER
