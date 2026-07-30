@@ -33,7 +33,7 @@ Turkic language with quite variable accents from different regions
 | Model                       |    CV | Digits | Fleurs | ISSAI | ISSAI Rare | Feruza |  Ovozify |
 |-----------------------------|------:|-------:|--------:|-------:|------------:|--------:|------:|
 | Vosk Small 0.24             | 13.59 |  42.42 |   27.34 |  13.94 |       24.19 |   17.99 | 57.81 |
-| Vosk 0.60 Streaming         | 10.15 |  26.05 |   18.02 |  15.87 |       36.23 |    7.87 | 48.94 |
+| Vosk 0.60 Streaming         |  9.74 |  25.80 |   17.67 |  15.42 |       35.11 |    7.71 | 48.34 |
 | MMS1B + LM                  | 17.24 |  80.06 |   23.39 |  28.18 |       43.70 |       – |     – |
 | Omnilingual LLM 7B V2       | 20.74 |  57.92 |   16.90 |  29.30 |       45.44 |       – |     – |
 | Rifkat STT v2 (wav2vec + LM)|  6.46 |  28.02 |   20.03 |   7.74 |       21.75 |    8.89 | 44.44 |
