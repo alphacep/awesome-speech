@@ -32,12 +32,13 @@ Turkic language with quite variable accents from different regions
 
 | Model                       |    CV | Digits | Fleurs | ISSAI | ISSAI Rare | Feruza |  Ovozify |
 |-----------------------------|------:|-------:|--------:|-------:|------------:|--------:|------:|
-| Vosk Small 0.24             | 13.59 |  42.42 |   27.34 |  13.94 |       24.19 |       – | 57.81 |
+| Vosk Small 0.24             | 13.59 |  42.42 |   27.34 |  13.94 |       24.19 |   17.99 | 57.81 |
+| Vosk 0.60 Streaming         | 10.63 |  25.82 |   18.91 |  16.53 |       37.38 |    9.22 | 49.33 |
 | MMS1B + LM                  | 17.24 |  80.06 |   23.39 |  28.18 |       43.70 |       – |     – |
 | Omnilingual LLM 7B V2       | 20.74 |  57.92 |   16.90 |  29.30 |       45.44 |       – |     – |
-| Nvidia FastConformer        |  8.86 |  57.49 |   15.10 |  14.37 |       28.85 |    6.61 | 54.56 |
-| Vosk 0.60 Streaming         | 10.63 |  25.82 |   18.91 |  16.53 |       37.38 |    9.22 | 49.33 |
 | Rifkat STT v2 (wav2vec + LM)|  6.46 |  28.02 |   20.03 |   7.74 |       21.75 |    8.89 | 44.44 |
+| Nvidia FastConformer        |  8.86 |  57.49 |   15.10 |  14.37 |       28.85 |    6.61 | 54.56 |
+| Nvidia FastConformer Uzinfocom |  9.18 |  41.93 |   14.10|  14.07 |     30.45 |    6.71 | 36.02 |
 | Whisper Medium Kotib        |  8.92 |   9.74 |    7.72 |  14.05 |       33.42 |    5.93 | 22.04 |
 | Whisper Medium Rubai        |  8.52 |  10.03 |   4.74*|  12.06 |       31.73 |    6.65 | 24.58 |
 | Whisper Medium Navai        |  7.28 |  25.95 |   7.64  |  9.21 |       24.42 |    7.64 | 46.06 |
