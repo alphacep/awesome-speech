@@ -7,6 +7,7 @@ For now only few languages here but we will add more.
 
   * [Arabic](arabic.md)
   * [Bengali](bengali.md)
+  * [Chinese](chinese.md)
   * [Filipino](filipino.md)
   * [Georgian](georgian.md)
   * [Greek](greek.md)
