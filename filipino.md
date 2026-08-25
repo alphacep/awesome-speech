@@ -8,6 +8,10 @@ Trained on 500 hours
 
 https://huggingface.co/NCSpeech/stt_tl_fastconformer_hybrid_large
 
+Distilled from Whisper on 100k+ hours
+
+https://huggingface.co/moonshine-ai/moonshine-streaming-tiny-tl
+
 ### ASR results
 
 WER results
@@ -21,3 +25,4 @@ Overall, no good stable model, yet to converge
 | Whisper Large             | 12.4   | 27.0 | 25.4 | 33.1      |
 | Whisper Turbo             | 12.0   | 28.0 | 24.4 | 38.9      |
 | NCSpeech                  | 13.3   | 20.7 | 36.9 | 27.1      |
+| Moonshine Tiny            | 15.1   | 24.63| 36.59| 30.86     |
