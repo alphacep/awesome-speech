@@ -5,3 +5,7 @@ https://github.com/georgepar/greek_podcasts_asr (https://arxiv.org/pdf/2406.1528
 and big speech LLM
 
 https://huggingface.co/ilsp/VoxKrikri-21-full (https://arxiv.org/abs/2509.15667)
+
+Recent release
+
+https://huggingface.co/KIEFERSA/Sophea-Canary-ASR
