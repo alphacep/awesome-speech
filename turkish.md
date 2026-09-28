@@ -31,6 +31,12 @@
   * https://huggingface.co/Karayakar
   * https://huggingface.co/kadirnar
   * https://github.com/freyavoiceai
+  * https://huggingface.co/EmreAkgul
+
+# Leaderboards
+  
+  * https://huggingface.co/spaces/EmreAkgul/Turkish-transcription-leaderboard
+  * https://huggingface.co/spaces/EmreAkgul/turkish-tts-arena
 
 ## Normalization
 
