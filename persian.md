@@ -8,6 +8,7 @@
   * <https://huggingface.co/Reza2kn/Shenava-Rizeh-Pizeh-v1.0>
   * <https://huggingface.co/Neurai/NeuraSpeech_900h>
   * <https://huggingface.co/Peacockery/omni-ctc-300m-farsi>
+  * <https://huggingface.co/mehdi-hf/nemotron-asr-streaming-farsi>
 
 Other historical models
 
@@ -30,6 +31,8 @@ Other historical models
   * <https://github.com/mah92>
   * <https://huggingface.co/Peacockery>
   * <https://github.com/MahtaFetrat>
+  * <https://huggingface.co/mehdi-hf>
+  * <https://huggingface.co/MohammadJRanjbar>
 
 ### ASR datasets (testing)
 
@@ -41,6 +44,10 @@ Other historical models
 Many existing Persian datasets here
 
   * <https://huggingface.co/datasets/Reza2kn/persian-asr-text-2.69M-deduped>
+  * <https://huggingface.co/datasets/PerSets/youtube-persian-asr>
+  * <https://huggingface.co/farsi-asr>
+  * <https://huggingface.co/datasets/PerSets/filimo-persian-asr>
+  * <https://huggingface.co/datasets/MohammadJRanjbar/ParsVoice>
 
 To process
 
@@ -87,6 +94,8 @@ Nemo is overtrained on Common Voice
   * <https://github.com/AlisterTA/Persian-text-to-speech>
   * <https://huggingface.co/Thomcles/Chatterbox-TTS-Persian-Farsi>
   * <https://github.com/MahtaFetrat/Piper-with-LCA-Phonemizer>
+  * <https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS>
+  * <https://huggingface.co/mehdi-hf/pocket-tts-farsi-v2>
 
 ## Dictionaries and G2P
 
