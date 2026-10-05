@@ -12,6 +12,7 @@
   * https://huggingface.co/KBLab/kb-whisper-large
   * https://huggingface.co/Banafo/Kroko-ASR (supports Swedish)
   * https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+  * https://huggingface.co/KlangAI/pianissimo-sv
 
 ### TextCorpora
 
