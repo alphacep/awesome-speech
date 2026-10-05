@@ -6,6 +6,7 @@ Underresourced language, only CV (160 hours) and Fleurs (tiny) datasets around.
      itself is good, but feels overbiased to CV dataset.
    * <https://huggingface.co/NMikka> finetuning all major TTS (OmniVoice, Kokoro, etc). Good finetuned models but dataset needs more work
    * https://github.com/facebookresearch/omnilingual-asr works rather well. V2 version is not very meaningful, only 7B is better, smaller models are worse.
+   * https://huggingface.co/tabluka90/georgian-f5-tts
 
 ## ASR accuracy results
 
