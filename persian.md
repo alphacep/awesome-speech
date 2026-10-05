@@ -57,32 +57,20 @@ To process
 
 WER results
 
-| Model             | Common Voice | Meetings | Fleurs | Visualears |
-|-------------------|-------------:|---------:|--------:|-------------
-| Vosk 0.42         |         16.7 |     37.9 |   11.1  |     14.4    |
-| Vosk Small 0.42   |         23.4 |     43.6 |    14.0 |      19.20  |
-| Nemo FC           |         16.2 |     60.6 |    43.8 |         -   |
-| Neuro FC          |         24.6 |     51.2 |    23.7 |      32.04  |
-| Neuro Whisper     |         23.5 |     45.4 |    25.3 |        -    |
-| Manifoldix XLS-R  |         29.5 |     46.0 |    24.5 |        -    |
-| Peacock Omni 300M |         23.1 |     33.33|    13.81 |     9.09   |
-|Reza2kn Koochik 1.0|     **13.26**| **32.36**|  **9.44**|    **8.11**|
+| Model              | Common Voice | Meetings | Fleurs  | Visualears |
+|--------------------|-------------:|---------:|--------:|-------------
+| Vosk 0.42          |         16.7 |     37.9 |   11.1  |     14.4    |
+| Vosk Small 0.42    |         23.4 |     43.6 |    14.0 |      19.20  |
+| Nemo FC            |         16.2 |     60.6 |    43.8 |         -   |
+| Neuro FC           |         24.6 |     51.2 |    23.7 |      32.04  |
+| Neuro Whisper      |         23.5 |     45.4 |    25.3 |        -    |
+| Manifoldix XLS-R   |         29.5 |     46.0 |    24.5 |        -    |
+| Peacock Omni 300M  |         23.1 |     33.33|    13.81 |     9.09   |
+|Reza2kn Koochik 1.0 |     **13.26**|     32.36|  **9.44**|    **8.11**|
+|Mehdi Nemotron Farsi|         20.06| **30.13**|    10.89|     12.05   |
+|Rover               |         14.48|     27.29|     7.53|      7.24   |
 
-
-### CER results
-
-| Model             | Common Voice | Meetings | Fleurs | Visualears |
-|-------------------|-------------:|---------:|--------:|-------------|
-| Vosk 0.42         |          5.7 |     18.7 |    4.0 |     3.90    |
-| Vosk Small 0.42   |          8.7 |     22.4 |     5.1 |    5.78    |
-| Nemo FC           |      **3.3** |     40.1 |    27.2 |      -     |
-| Neuro FC          |          7.6 |     26.0 |     9.0 |       9.53 |
-| Neuro Whisper     |          6.8 |     23.0 |     6.7 |     -      |
-| Manifoldix XLS-R  |          7.7 |     17.9 |     6.5 |      -     |
-| Peacock Omni 300M |          5.7 | **12.86**|    5.10 |   **2.18** |
-|Reza2kn Koochik 1.0|          4.08 |   13.42|    **3.35** |   2.65   |
-
-Nemo is overtrained on Common Voice
+Some models like Nemo FC are overtrained on Common Voice because CV train and test intersect
 
 ## Text to speech models
 
