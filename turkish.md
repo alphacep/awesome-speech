@@ -1,3 +1,7 @@
+### ASR Models
+
+  * https://huggingface.co/erayyapagci/balbal-v1
+
 ## TTS voices and systems
 
   * Piper Turkish voices (many of them)
