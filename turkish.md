@@ -1,6 +1,8 @@
 ### ASR Models
 
   * https://huggingface.co/erayyapagci/balbal-v1
+  * https://huggingface.co/atasoglu/seda-v0.2
+  * https://huggingface.co/Banafo/Kroko-ASR
 
 ## TTS voices and systems
 
@@ -36,6 +38,7 @@
   * https://huggingface.co/kadirnar
   * https://github.com/freyavoiceai
   * https://huggingface.co/EmreAkgul
+  * https://huggingface.co/atasoglu
 
 # Leaderboards
   
