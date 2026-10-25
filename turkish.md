@@ -18,6 +18,7 @@
   * https://huggingface.co/ResembleAI/chatterbox
   * https://huggingface.co/Karayakar/Orpheus-TTS-Turkish-PT-5000
   * https://github.com/freyavoiceai/FreyaTTS
+  * https://huggingface.co/kasparovabi/drama-3-tr-speaker
 
 ## TTS datasets
 
