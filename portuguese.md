@@ -12,10 +12,11 @@
 |         FunASR Nano       | 148.7  | 87.1    |   24.4  |   20.3  |
 |         Cohere 03-2026    | 26.2   | 25.8    |    3.7  |   4.6   | 
 |         Qwen3 1.7B        | 28.1   | 25.6    |    5.5  |   4.3   | 
-|         Parakeeet Ultra   | 29.3   | 26.0    |    6.2   |   4.4   | 
-|         Rover             | 22.0   | 20.3    |    3.0   |   3.7   |
+|         Parakeeet Ultra   | 29.3   | 26.0    |    6.2  |   4.4   | 
+   Whisper V3 Turbo TheStage| 27.73  | 26.66   |    2.82 |   3.66  |
+|         Rover             | 21.57   | 20.23  |    2.93 |   3.56  |
 
-Rover = Kroko + Cohere + Parakeet + Vosk (calls) or Kroko + Cohere + Parakeet + Qwen + Whisper NC (other)
+Rover = Kroko + Cohere + Parakeet + Vosk (calls) or Kroko + Cohere + Parakeet + Qwen + Whisper NC (other) + Whisper Thesage
 
 ## Models to try
 
