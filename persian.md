@@ -70,7 +70,7 @@ WER results
 | Peacock Omni 300M  |         23.1 |     33.33|    13.81 |     9.09   |
 |Reza2kn Koochik 1.0 |     **13.26**|     32.36|  **9.44**|    **8.11**|
 |Mehdi Nemotron      |         20.06|     30.13|    10.89|     12.05   |
-|Whisper Taraeh Large|         16.90| **28.88**|    16.49|     17.78   |
+|Whisper Taraneh Large|         16.90| **28.88**|    16.49|     17.78   |
 |Rover               |         13.50|     25.66|     7.41|      7.44   |
 
 Some models like Nemo FC are overtrained on Common Voice because CV train and test intersect
