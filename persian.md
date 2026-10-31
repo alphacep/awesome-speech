@@ -59,19 +59,19 @@ To process
 
 WER results
 
-| Model              | Common Voice | Meetings | Fleurs  | Visualears |
-|--------------------|-------------:|---------:|--------:|-------------
-| Vosk 0.42          |         16.7 |     37.9 |   11.1  |     14.4    |
-| Vosk Small 0.42    |         23.4 |     43.6 |    14.0 |      19.20  |
-| Nemo FC            |         16.2 |     60.6 |    43.8 |         -   |
-| Neuro FC           |         24.6 |     51.2 |    23.7 |      32.04  |
-| Neuro Whisper      |         23.5 |     45.4 |    25.3 |        -    |
-| Manifoldix XLS-R   |         29.5 |     46.0 |    24.5 |        -    |
-| Peacock Omni 300M  |         23.1 |     33.33|    13.81 |     9.09   |
-|Reza2kn Koochik 1.0 |     **13.26**|     32.36|  **9.44**|    **8.11**|
-|Mehdi Nemotron      |         20.06|     30.13|    10.89|     12.05   |
-|Whisper Taraneh Large|         16.90| **28.88**|    16.49|     17.78   |
-|Rover               |         13.50|     25.66|     7.41|      7.44   |
+| Model                 | Common Voice | Meetings | Fleurs  | Visualears |
+|-----------------------|-------------:|---------:|--------:|-----------:|
+| Vosk 0.42             |        16.68 |    37.86 |   11.13 |      14.47 |
+| Vosk Small 0.42       |        23.45 |    43.57 |   13.98 |      19.20 |
+| Nemo FC               |        16.19 |    60.65 |   43.81 |          - |
+| Neuro FC              |        24.62 |    51.23 |   27.70 |      32.04 |
+| Neuro Whisper         |        23.51 |    45.40 |   25.25 |          - |
+| Manifoldix XLS-R      |        29.49 |    45.97 |   24.48 |          - |
+| Peacock Omni 300M     |        22.71 |    33.08 |   11.24 |       8.97 |
+| Reza2kn Koochik 1.0   |    **13.01** |    32.16 | **9.19** |   **8.04** |
+| Mehdi Nemotron        |        19.83 |    29.90 |   10.58 |      11.96 |
+| Whisper Taraneh Large |        16.39 | **28.67** |   16.16 |      17.62 |
+| Rover                 |        13.16 |    25.42 |    6.96 |       7.37 |
 
 Some models like Nemo FC are overtrained on Common Voice because CV train and test intersect
 
