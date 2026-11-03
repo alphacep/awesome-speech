@@ -87,6 +87,7 @@ Some models like Nemo FC are overtrained on Common Voice because CV train and te
   * <https://github.com/MahtaFetrat/Piper-with-LCA-Phonemizer>
   * <https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS>
   * <https://huggingface.co/mehdi-hf/pocket-tts-farsi-v2>
+  * <https://github.com/zorost/nava-fa>
 
 ## Dictionaries and G2P
 
