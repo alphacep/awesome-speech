@@ -28,6 +28,15 @@ Turkic language with quite variable accents from different regions
    * https://huggingface.co/Abduqayum/whisper-uzbek-medium-callcenter - whisper with callcenter augmentation
    * ROVER (Rubai + Giga + Rifkat + Kotlib + Nemo)
 
+## TTS
+
+  * https://huggingface.co/islomov/gapi-uz-gapiring-v1
+  * https://huggingface.co/uzlm/sayro-tts-1.7B
+
+## Smart Turn
+
+  * https://huggingface.co/gurinbaev/smart-turn-uz
+
 ## WER
 
 | Model                       |    CV | Digits | Fleurs | ISSAI | ISSAI Rare | Feruza |  Ovozify |
