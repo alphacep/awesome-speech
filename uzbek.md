@@ -27,6 +27,7 @@ Turkic language with quite variable accents from different regions
    * https://huggingface.co/uzinfocom-edu-ai/asr-uz-fastconformer-large - fastconformer (cv + issai + uzvoice + islomov)
    * https://huggingface.co/Abduqayum/whisper-uzbek-medium-callcenter - whisper with callcenter augmentation
    * ROVER (Rubai + Giga + Rifkat + Kotlib + Nemo)
+   * https://huggingface.co/baisalovar/Tynda-ASR-uz
 
 ## TTS
 
