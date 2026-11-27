@@ -30,4 +30,5 @@ WER results
 | Vosk GigaAM Multilingual Finetune  | 12.73      | 29.54       |     47.57     |  107.54   |
 | Vosk tg 0.61                       | 13.85      | 28.21       |     54.28     |           |
 | Vosk tg 0.63                       | 12.45      | 27.74       |     43.69     |  49.13    |
+| Gigaam Multilingual v2             | 8.90       | 26.01       |     58.12     |  25.34    |
 | ROVER                              | 11.15      | **26.60**   |   **41.45**   | **42.17** |
