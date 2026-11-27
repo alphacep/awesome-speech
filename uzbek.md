@@ -53,7 +53,8 @@ Turkic language with quite variable accents from different regions
 | Whisper Medium Rubai        |  8.52 |  10.03 |   4.74*|  12.06 |       31.73 |    6.65 | 24.58 |
 | Whisper Medium Navai        |  7.28 |  25.95 |   7.64  |  9.21 |       24.42 |    7.64 | 46.06 |
 | GigaAM Multilingual         |  7.24 |  46.79 |   11.96 |  11.30 |       29.58 |    6.58 | 23.17 |
-| **GigaAM Multilingual Large**|  5.52 |  38.95 |    8.82 |   8.77 |       26.40 |    5.93 | 20.82 |
-| **Rover**                   |**4.64**|**11.85**|**5.57**|**7.23**|    **22.27**| **5.15**|**19.88**|
+| GigaAM Multilingual Large   |  5.52 |  38.95 |    8.82 |   8.77 |       26.40 |    5.93 | 20.82 |
+| **GigaAM Multilingual V2**  |  4.29 |  22.65 |    6.23 |   7.18 |       22.04 |    5.31 | 18.71 |
+| **Rover**                   |**4.17**|**13.22**|**5.64**|**6.67**|    **21.19**| **4.16**|**17.88**|
 
 * Likely Rubai Fleurs results are cheating, test included into training
