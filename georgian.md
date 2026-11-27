@@ -18,4 +18,5 @@ Underresourced language, only CV (160 hours) and Fleurs (tiny) datasets around.
 |         OmnilingualASR 300M LLM     | 11.7 | 17.7  |
 |         OmnilingualASR 7B   LLM     |  6.4 | 12.3  |
 |         OmnilingualASR 7B   LLM V2  |  6.6 | 12.1  |
-| Rover (Omni 7B V2 + Vosk + Nemo)  |  2.5 |  9.3  |
+|         GigaAM Multilingual v2      | 2.35 | 7.87 |
+| Rover (Omni 7B V2 + Vosk + Nemo)  |  1.77 |  7.65  |
